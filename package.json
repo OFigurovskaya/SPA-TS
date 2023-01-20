@@ -1,0 +1,33 @@
+{
+  "name": "spa-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OFigurovskaya/SPA-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OFigurovskaya/SPA-TS/issues"
+  },
+  "homepage": "https://github.com/OFigurovskaya/SPA-TS#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.75.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
